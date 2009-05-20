@@ -32,5 +32,3 @@ module Test #:nodoc:
     end
   end
 end
-
-ActionController::TestCase.send(:include, Test::Unit::ActsAsDeleted)
